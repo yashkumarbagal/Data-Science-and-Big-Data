@@ -1,0 +1,22 @@
+Hadoop
+folder ---> sbin---->open in terminal
+$start -all.sh
+$jps
+----------------------------------
+firefox open---->local host 9870----->hadoop nav bar --->utility
+
+-------------------------------------
+folder ---->wordcount.jar ------>open in terminal
+$hadoop fs -mkdir /abcd
+$hadoop fs -mkdir /abcd/input
+$hadoop fs -put input.txt /abcd /input
+$ls
+$hadoop jar wordcount.jar /abcd /input /abcd /output
+
+--------------------------
+terminal output
+$hadoop dfs -cat /abcd /output*
+
+
+
+jar addition common and mapreduce
